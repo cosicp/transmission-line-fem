@@ -1,11 +1,11 @@
-# Python 3 database for statistical analysis of light turboprop aircraft 
+# FEM analysis of a Transmission line hand-coded in Python
 
 <p align="center">
-  <img src="[https://github.com/cosicp/light-turboprop-aircfraft-database/blob/main/light_turboprop_database_img.PNG](https://github.com/cosicp/transmission-line-fem/blob/main/transmission_line_fem_python.png)">
+  <img src="https://github.com/cosicp/transmission-line-fem/blob/main/transmission_line_fem_python.png">
 </p>
 
 ## About
-This is a short python example of a hand coded finite element analysis of a transmission line assuming rod elements.
+This is a short Python example of a hand-coded finite element analysis of a transmission line assuming rod elements.
 
 ## Requirements
 [Python 3](https://www.python.org/downloads/)<br>
