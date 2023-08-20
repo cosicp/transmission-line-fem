@@ -1,5 +1,5 @@
 # Transmission line FEM example
-# Autor: Petar Cosic <cpetar112@gmail.com>
+# Author: Petar Cosic <cpetar112@gmail.com>
 # Date: August 2023
 # Python 3.11.3
 # -------------------------------------------
@@ -103,7 +103,6 @@ for i in range(0,ne):
 # Forces in rods
 Q = sigma*A  # [N] Rod forces
 
-
 # Displaying results in console
 print('        Displacements         ')
 print('------------------------------')
@@ -133,7 +132,6 @@ print('--------------------------')
 print('   rod  |   Force [N]');
 for i in range(0,len(Q)):
    print(f'   {el_node_num[i][0]}-{el_node_num[i][1]}  |  {round(Q[i][0],5)}')
-
 
 # Ploting 
 node_coords_deformed = node_coord+Dn*1000*displacement_magnification # Deformed model node coordinates
